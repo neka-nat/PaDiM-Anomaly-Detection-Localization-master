@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "padim-anomaly-detection-localization-master"
+version = "0.1.0"
+description = ""
+authors = ["nekanat <nekanat.stock@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+torch = "^1.7.1"
+torchvision = "^0.8.2"
+scikit-learn = "^0.24.1"
+tqdm = "^4.57.0"
+matplotlib = "^3.3.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
